@@ -1,0 +1,7 @@
+[WARN ] 2019-07-26 16:41:35 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-26 16:41:35 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-26 16:46:04 [Thread-34] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564130764185, current=DOWN, previous=UP]
+[WARN ] 2019-07-26 16:54:43 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-26 16:54:43 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-26 17:40:06 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-26 17:40:06 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

@@ -1,0 +1,1 @@
+[WARN ] 2019-07-31 16:00:50 [Thread-6] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564560050255, current=DOWN, previous=UP]

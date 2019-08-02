@@ -1,0 +1,106 @@
+处理环节
+        CREATE("create","创建"),
+        RELATED_BUSINESS("relatedBusiness","关联业务单"),
+        RELATE_VIK_BILL("relateVikBill","关联VIK订单"),
+        RELATE_INVOICE("relateInvoice","关联发票"),
+        RELATE_INQUIRY_LIST("relateInquiryList","关联询价单"),
+        UPDATE_INQUIRY_LIST("updateInquiryList","更新询价单号"),
+        ACCEPTANCE_CONFIRMATION("acceptanceConfirmation","关联验收确认单"),
+        INVOICE_RELATED("invoiceRelated","发票关联"),
+         CANCEL_INVOICE_RELATED("cancelInvoiceRelated","取消关联"),
+        RELATE_CONFIRMATION_BILL("relateConfirmationBill","关联服务对账单"),
+        SUBMIT_EXAMINE("submitExamine","提交审核"),
+        APPROVE("approve","审核"),
+        DISTRIBUTE("distribute","分发"),
+        WITHDRAW("withdraw","撤回"),
+        REJECT("reject","驳回"),
+        ACCEPT("accept","接收"),
+        OFFER_COMPLETE("offerComplete","已报价"),
+        BUSINESS_FINISH("businessFinish","业务受理"),
+        PROCESSING("processing","业务处理"),
+        MONTHLY_ACCOUNT("monthlyAccount","月度对账"),
+        QUARTERLY_ACCOUNT("quarterlyAccount","季度对账"),
+        GENERATED("generated","生成服务对账单"),
+        ABOLISH("abolish","作废"),
+        PROVINCE_CONFIRM("provinceConfirm","省分出账"),
+        WAIT_PROVINCE_CONFIRMED("waitProvinceConfirmed","待省分出账"),
+        CONFIRMED("confirmed","确认"),
+        SERVICE_VALID("serviceValid","服务对账"),
+        DELETE("delete","删除"),
+        CAN_GENERATED("canGenerated","可生成服务对账单"),
+        ACCOUNT_FINISH("accountFinish","对账完成");
+
+
+VIK订单
+        DRAFT("draft","已确认"),
+        RELATED_BUSINESS("relatedBusiness","已关联业务单"),
+        UNDER_REVIEW("underReview","审核中"),
+        REVIEW_FINISH("reviewFinish","已审核"),
+        ABOLISH("abolish","已作废"),
+        REVIEW_FAIL("reviewFail","审核未通过"),
+        PROCESSING("processing","处理中"),
+        DREDGE_PART("processesPart","部分处理"),
+        DREDGE_FINISH("processesFinish","已处理");
+
+业务单
+	UN_DISPOSED("unDisposed","未处理"),
+        ABOLISH("abolish","已作废"),
+        RELATE_VIK_BILL("relateVikBill","已关联订单"),
+        UNDER_REVIEW("underReview","审核中"),
+        REVIEW_FINISH("reviewFinish","已审核"),
+        REVIEW_FAIL("reviewFail","审核未通过"),
+        PROCESSING("processing","处理中"),
+        WITHDRAW_FINISH("withdrawFinish","已撤回"),
+        REJECT_FINISH("rejectFinish","已驳回"),
+        ACCEPT_FINISH("acceptFinish","已接收"),
+        PROCESSES_PART("processesPart","部分处理"),
+        PROCESSES_FINISH("processesFinish","已处理");
+
+业务明细
+	UN_DISPOSED("unDisposed","未处理"),
+        RELATE_VIK_BILL("relateVikBill","已关联订单"),
+        ABOLISH("abolish","已作废"),
+        UNDER_REVIEW("underReview","审核中"),
+        REVIEW_FINISH("reviewFinish","已审核"),
+        REVIEW_FAIL("reviewFail","审核未通过"),
+        PROCESSING("processing","处理中"),
+        WITHDRAW_FINISH("withdrawFinish","已撤回"),
+        REJECT_FINISH("rejectFinish","已驳回"),
+        ACCEPT_FINISH("acceptFinish","已接收"),
+        DREDGE_FINISH("processesFinish","已处理");
+
+发票
+	ABOLISH("abolish","已作废"),
+        CONFIRM_FINISH("confirmFinish","已确认"),
+        HAS_RELA_SERVICE_BILL("hasRleaServiceBill","已关联服务对账单"),
+        DELETE("delete","已删除"),
+        RELATE_INVOICE("relateInvoice","发票关联");
+
+服务对账单
+	CAN_GENERATED("canGenerated","可生成服务对账单"),
+        GENERATED("generated","已生成服务对账单"),
+        OUT_OF_ACCOUNT("aoutOfAccount","已出账"),
+        CONFIRMED("bconfirmed","已确认"),
+        INVALID("hinvalid","已作废"),
+        PROVINCE_CONFIRM("dprovinceConfirm","省分确认"),
+        ACCOUNT_FINISH("ehavaValid","已对账"),
+        DELETE("delete","已删除"),
+        HAS_RELA_SERVICE_BILL("hasRleaServiceBill","已关联服务对账单"),
+        IS_FINISH_INVOICE("fisFinishInvoice","已开服务发票"),
+        RELATE_INVOICE("grelateInvoice","发票关联"),
+        PROVINCE_OUT_ACCOUNT("cprovinceOutAccount","省分出账");
+
+询价单
+	DRAFT("draft","已确认"),
+        ABOLISH("abolish","已作废"),
+        UNDER_REVIEW("underReview","审核中"),
+        REVIEW_FINISH("reviewFinish","已审核"),
+        REVIEW_FAIL("reviewFail","审核未通过"),
+        PROCESSING("processing","处理中"),
+        WITHDRAW_FINISH("withdrawFinish","已撤回"),
+        REJECT_FINISH("rejectFinish","已驳回"),
+        ACCEPT_FINISH("acceptFinish","已接收"),
+        OFFER_COMPLETE("offerComplete","已报价"),
+        OFFER_REVIEW("offerReview","报价审核中"),
+        OFFER_FAIL("offerFail","报价审核未通过"),
+        OFFER_FINISH("offerFinish","报价已审核");

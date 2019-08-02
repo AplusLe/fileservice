@@ -1,0 +1,8 @@
+[WARN ] 2019-07-31 15:19:41 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-31 15:19:41 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-31 15:20:22 [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 47.101.57.2:8000 timed out
+[WARN ] 2019-07-31 15:41:33 [Thread-51] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564558893821, current=DOWN, previous=UP]
+[WARN ] 2019-07-31 15:42:15 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-31 15:42:15 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-31 15:48:48 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-07-31 15:48:48 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

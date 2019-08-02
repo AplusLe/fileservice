@@ -1,0 +1,12 @@
+[INFO ] 2019-07-31 15:52:20 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-07-31 15:57:20 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-07-31 16:00:50 [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application FILE-SERVICE with eureka with status DOWN
+[INFO ] 2019-07-31 16:00:50 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_FILE-SERVICE/10.253.18.171:9081: registering service...
+[INFO ] 2019-07-31 16:00:50 [Thread-6] o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+[INFO ] 2019-07-31 16:00:50 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-07-31 16:00:50 [Thread-6] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-07-31 16:00:50 [Thread-6] c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+[INFO ] 2019-07-31 16:00:50 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_FILE-SERVICE/10.253.18.171:9081 - registration status: 204
+[INFO ] 2019-07-31 16:00:50 [Thread-6] c.netflix.discovery.DiscoveryClient - Unregistering ...
+[INFO ] 2019-07-31 16:00:50 [Thread-6] c.netflix.discovery.DiscoveryClient - DiscoveryClient_FILE-SERVICE/10.253.18.171:9081 - deregister  status: 200
+[INFO ] 2019-07-31 16:00:50 [Thread-6] c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

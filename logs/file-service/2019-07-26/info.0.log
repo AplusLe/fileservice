@@ -1,0 +1,91 @@
+[INFO ] 2019-07-26 16:41:28 [main] c.a.f.FileserviceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-26 16:41:30 [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=31810cc4-12b7-340e-a348-cb3d58494a6f
+[INFO ] 2019-07-26 16:41:30 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$12be47b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-26 16:41:30 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ed84aaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-26 16:41:31 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9081 (http)
+[INFO ] 2019-07-26 16:41:31 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-26 16:41:31 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[INFO ] 2019-07-26 16:41:32 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-26 16:41:32 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3795 ms
+[INFO ] 2019-07-26 16:41:32 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-07-26 16:41:32 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-07-26 16:41:35 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 2019-07-26 16:41:35 [main] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-07-26 16:41:35 [main] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-07-26 16:41:35 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-07-26 16:41:36 [main] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-07-26 16:41:37 [main] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-07-26 16:41:37 [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-07-26 16:41:37 [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-07-26 16:41:37 [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-07-26 16:41:37 [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-07-26 16:41:37 [main] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-07-26 16:41:38 [main] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1564130498648 with initial instances count: 1
+[INFO ] 2019-07-26 16:41:38 [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application FILE-SERVICE with eureka with status UP
+[INFO ] 2019-07-26 16:41:38 [main] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564130498659, current=UP, previous=STARTING]
+[INFO ] 2019-07-26 16:41:38 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_FILE-SERVICE/CNPB0311YE.atrapa.deloitte.com:file-service:9081: registering service...
+[INFO ] 2019-07-26 16:41:38 [main] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2019-07-26 16:41:38 [main] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2019-07-26 16:41:38 [main] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2019-07-26 16:41:38 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_FILE-SERVICE/CNPB0311YE.atrapa.deloitte.com:file-service:9081 - registration status: 204
+[INFO ] 2019-07-26 16:41:39 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9081 (http) with context path ''
+[INFO ] 2019-07-26 16:41:39 [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9081
+[INFO ] 2019-07-26 16:41:39 [main] c.a.f.FileserviceApplication - Started FileserviceApplication in 14.094 seconds (JVM running for 17.989)
+[INFO ] 2019-07-26 16:46:04 [Thread-34] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application FILE-SERVICE with eureka with status DOWN
+[INFO ] 2019-07-26 16:46:04 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_FILE-SERVICE/CNPB0311YE.atrapa.deloitte.com:file-service:9081: registering service...
+[INFO ] 2019-07-26 16:46:04 [Thread-34] o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+[INFO ] 2019-07-26 16:46:04 [Thread-34] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-07-26 16:46:04 [Thread-34] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-07-26 16:46:04 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_FILE-SERVICE/CNPB0311YE.atrapa.deloitte.com:file-service:9081 - registration status: 204
+[INFO ] 2019-07-26 16:46:04 [Thread-34] c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+[INFO ] 2019-07-26 16:46:07 [Thread-34] c.netflix.discovery.DiscoveryClient - Unregistering ...
+[INFO ] 2019-07-26 16:46:07 [Thread-34] c.netflix.discovery.DiscoveryClient - DiscoveryClient_FILE-SERVICE/CNPB0311YE.atrapa.deloitte.com:file-service:9081 - deregister  status: 200
+[INFO ] 2019-07-26 16:46:07 [Thread-34] c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+[INFO ] 2019-07-26 16:54:31 [main] c.a.f.FileserviceApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-26 16:54:34 [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=cbd232ab-eec5-39fb-8af4-d1fc0bde9de0
+[INFO ] 2019-07-26 16:54:35 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$788d4e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-26 16:54:36 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$23a2d7df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-26 16:54:36 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-07-26 16:54:37 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-07-26 16:54:42 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 2019-07-26 16:54:43 [main] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-07-26 16:54:43 [main] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-07-26 16:54:44 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-07-26 16:54:49 [main] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2019-07-26 16:54:49 [main] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2019-07-26 16:54:49 [main] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2019-07-26 16:54:50 [main] c.a.f.FileserviceApplicationTests - Started FileserviceApplicationTests in 23.226 seconds (JVM running for 25.571)
+[INFO ] 2019-07-26 16:54:51 [Thread-5] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-07-26 16:54:51 [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application FILE-SERVICE with eureka with status DOWN
+[INFO ] 2019-07-26 16:54:51 [Thread-5] o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+[INFO ] 2019-07-26 16:54:51 [Thread-5] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-07-26 16:54:51 [Thread-5] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[INFO ] 2019-07-26 17:39:54 [main] c.a.f.FileserviceApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-26 17:39:57 [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=cbd232ab-eec5-39fb-8af4-d1fc0bde9de0
+[INFO ] 2019-07-26 17:39:58 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$788d4e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-26 17:39:59 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$23a2d7df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-26 17:39:59 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+[INFO ] 2019-07-26 17:39:59 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-07-26 17:40:05 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 2019-07-26 17:40:06 [main] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-07-26 17:40:06 [main] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-07-26 17:40:07 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-07-26 17:40:10 [main] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2019-07-26 17:40:10 [main] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2019-07-26 17:40:10 [main] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2019-07-26 17:40:11 [main] c.a.f.FileserviceApplicationTests - Started FileserviceApplicationTests in 19.765 seconds (JVM running for 21.959)
+[INFO ] 2019-07-26 17:40:12 [Thread-5] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-07-26 17:40:12 [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application FILE-SERVICE with eureka with status DOWN
+[INFO ] 2019-07-26 17:40:12 [Thread-5] o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+[INFO ] 2019-07-26 17:40:12 [Thread-5] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-07-26 17:40:12 [Thread-5] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -34,10 +34,10 @@ public class EmptyUtils {
         if (obj.getClass().isArray() && Array.getLength(obj) == 0) {
             return true;
         }
-        if (obj instanceof Collection && ((Collection) obj).isEmpty()) {
+        if (obj instanceof Collection && ((Collection<?>) obj).isEmpty()) {
             return true;
         }
-        return obj instanceof Map && ((Map) obj).isEmpty();
+        return obj instanceof Map && ((Map<?,?>) obj).isEmpty();
     }
 
     /**

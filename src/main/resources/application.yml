@@ -8,7 +8,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.101.57.2:3306/dev?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    url: jdbc:mysql://47.101.57.2:3306/dev?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
     username: root
     password: Root@529
   jackson:
@@ -19,6 +19,11 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
       enabled: true
+  redis:
+    #    redis数据库地址
+    host: 47.101.57.2     #这里填你的阿里云地址
+    port: 3200
+    password: kevin
 
 # 自定义日志文件路径配置
 logging:

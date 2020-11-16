@@ -1,6 +1,7 @@
 package com.aplus.fileservice.file.controller;
 
 
+import com.aplus.fileservice.annotation.ResponseResult;
 import com.aplus.fileservice.file.service.IInfoService;
 import com.aplus.fileservice.model.FileFormRsp;
 import com.aplus.fileservice.response.Response;
@@ -33,6 +34,7 @@ public class InfoController {
     @Autowired
     IInfoService infoService;
 
+    @ResponseResult
     @ApiOperation("文件上传")
     @PostMapping(value = "/upload",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<Response> upload(@RequestParam("file") MultipartFile file) {

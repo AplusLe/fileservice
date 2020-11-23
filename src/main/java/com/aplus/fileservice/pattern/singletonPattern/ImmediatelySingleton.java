@@ -21,4 +21,9 @@ public class ImmediatelySingleton {
     public static ImmediatelySingleton getInstance() {
         return immediatelySingleton;
     }
+
+    public static void main(String[] args) {
+        EnumSingleton instance = EnumSingleton.INSTANCE;
+        instance.whateverMethod();
+    }
 }

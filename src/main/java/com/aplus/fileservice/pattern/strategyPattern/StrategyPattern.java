@@ -1,4 +1,4 @@
-package com.aplus.fileservice.pattern.strategy.pattern;
+package com.aplus.fileservice.pattern.strategyPattern;
 
 /**
  * @description:

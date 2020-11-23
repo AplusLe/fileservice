@@ -1,9 +1,9 @@
 package com.aplus.fileservice;
 
-import com.aplus.fileservice.enums.BizExceptionEnum;
+import com.aplus.fileservice.pattern.proxyPattern.CglibProxyFactory;
+import com.aplus.fileservice.pattern.proxyPattern.IndependentImage;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -31,7 +31,10 @@ public class FileServiceApplicationTests {
     }
     @Test
     public  void test2() {
-
+        IndependentImage image = new IndependentImage("精品独立图");
+        CglibProxyFactory cglibProxyFactory = new CglibProxyFactory(image);
+        IndependentImage image2  = (IndependentImage)cglibProxyFactory.getProxyInstance();
+        image2.display();
     }
 
 }

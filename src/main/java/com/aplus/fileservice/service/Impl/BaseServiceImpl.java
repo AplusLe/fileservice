@@ -25,6 +25,7 @@ public class BaseServiceImpl implements BaseService {
     @Autowired
     private FdfsWebServer fdfsWebServer;
 
+
     /**
      * 上传文件
      *

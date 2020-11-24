@@ -2,9 +2,6 @@ package com.aplus.fileservice.pattern.statePattern;
 
 public class SoldOutState extends State {
 
-    public SoldOutState(CandyMachine candyMachine) {
-    }
-
     @Override
     public void insertQuarter() {
         System.out.println("糖果已告罄");

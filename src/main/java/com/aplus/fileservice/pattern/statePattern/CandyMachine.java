@@ -20,15 +20,16 @@ public class CandyMachine extends State{
     public State noQuarterState = new NoQuarterState(this);
     public State hasQuarterState = new HasQuarterState(this);
     public State soldState = new SoldState(this);
-    public State soldOutState  = new SoldOutState(this);
+    public State soldOutState  = new SoldOutState();
 
     private State state = soldState;
-    private int count = 0;
+    private int count;
 
     public CandyMachine(int count) {
         this.count = count;
-        if(count > 0)
+        if (count > 0) {
             setState(noQuarterState);
+        }
     }
 
     public void setState(State state) {
@@ -76,5 +77,7 @@ public class CandyMachine extends State{
         candyMachine.pullCandy();
         candyMachine.dispense();
         candyMachine.insertQuarter();
+        System.out.println(candyMachine.getState());
+
     }
 }

@@ -19,7 +19,7 @@
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
         <fastdfs.version>1.26.5</fastdfs.version>
         <druid.version>1.1.14</druid.version>
-        <fastjosn.version>1.2.56</fastjosn.version>
+        <fastjosn.version>1.2.83</fastjosn.version>
     </properties>
 
     <dependencies>
